@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josue's Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/igq8rzm.css">
+    <link rel="stylesheet" href="https://use.typekit.net/igq8rzm.css">
+</head>
+<body>
+
+<div id="whole-page">
+
+<div id="left-side">
+    <h1>Crypto Mastery 101</h1>
+    <img src="../MyFirstForm/pexels-alesiakozik-6770524.jpg" alt="bitcoin image">
+    <!--This image is free for download no copyright issues by Pexels.com-->
+</div>
+
+<div id="right-side">
+
+<div id="text">
+<p>Are you tired of living your life paycheck to paycheck? <br>
+    You know you need something like this in your life to help you <br>
+    realize your deepest dreams. <br>
+    Sign up <em>now</em> to get started.
+</p>
+<p>You <em>know</em> you want to.</p>
+</div>
+
+<div id="sign-up-container">
+    <form id="form">
+        <fieldset>
+            <legend>Let's do this!</legend>
+        <ul>
+            <div id="major-flex">
+            <div id="flex">
+            <li>
+        <label for="name">First Name</label> <br>
+        <input type="text" id="name" placeholder="Bob" required>*
+    </li>
+    <li>
+        <label for="last-name">Last Name</label> <br>
+        <input type="text" id="last-name" placeholder="Smith" required>*
+    </li>
+    <li>
+        <label for="E-mail">Email</label><br>
+        <input type="email" id="E-mail" placeholder="myemail@email.com">
+    </li>
+    </div>
+    <div id="flex2">
+    <li>
+        <label for="phone">Phone</label><br>
+        <input type="tel" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="999-999-9999">
+    </li>
+    <li>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" minlength=8 required>*
+    </li>
+    <li>
+        <label for="confirm-pass">Confirm Password</label><br>
+        <input type="password" id="confirm-pass" minlength=8 required>*
+    </li>
+</div>
+</div>
+        </ul>
+        <button type="submit" id="submit-button">Submit</button>
+        </fieldset>
+    </form>
+</div>
+
+<div id="create-account">
+    <button>Create Account</button>
+    <p>Already have an account? <a href="">Log in</a></p>
+</div>
+
+</div>
+</div> <!--End of whole-page-div -->
+
+<br>
+<h5>Created by Josue Castro 2024</h5>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>

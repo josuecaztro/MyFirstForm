@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 250px;
+}
+
+#whole-page {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(246, 246, 246);
+    border: 2.5px solid black;
+    border-radius: 8px;
+    min-width: 1000px;
+    min-height: 850px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+h1 {
+    font-family: "poleno", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    top: 150px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+    width: auto;
+    padding-right: 80px;
+    padding-left: 110px;
+}
+
+h5 {
+    color: white;
+}
+
+
+#text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    text-wrap: wrap;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 100%;
+    width: 500px;
+}
+
+#sign-up-container {
+    background-color: rgb(227, 227, 227);
+    padding: 25px;
+}
+
+#create-account {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-wrap: nowrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:valid {
+    border: 0.5px solid green;
+}
+
+input:invalid {
+    border: 0.5px solid red;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: rgb(38, 38, 52);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(76, 76, 104);
+}
+
+a {
+    color: blue;
+}
+
+legend {
+    font-size: 1.5em;
+    color: black;
+}
+
+form {
+    color: rgb(95, 95, 95);   
+    font-family: "hoss-round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#major-flex {
+    display: flex;
+}
+
+#submit-button {
+    margin: 10px;
+}
